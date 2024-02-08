@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512"
+    height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve"
+    class="">
+    <g>
+        <path
+            d="M256.073 256.042 471.207 380.25M40.792 380.249l215.099-124.186M256 63.447V7.5M256 256.042V98.447M228.542 456.94 256 504.5l215.208-372.749-341.889-.001M94.319 131.75H40.793l170.304 294.976M327.808 380.25h143.399l-71.723-124.229M112.516 256.021 40.792 380.249h143.346M327.592 131.5 256 7.5l-71.592 124"
+            style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" fill="none"
+            stroke="#2e78c9" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+            data-original="#000000" class="" opacity="1"></path>
+        <path d="m318.25 239.427 45.569 78.823-215.639-.001L256 131.75l44.663 77.255"
+            style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" fill="none"
+            stroke="#2e78c9" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+            data-original="#000000" class="" opacity="1"></path>
+    </g>
+</svg>

@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  font-size: clamp (1.125rem, 2vw, 1.25rem);
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+input,
+textarea {
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.07);
+  color: rgb(220, 139, 139);
+  padding: 0.625rem 0.75rem;
+  width: 100%;
+}
+
+/* section {
+  animation: fade linear both;
+  animation-timeline: view();
+  animation-range: entry 40% cover 40%;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} */

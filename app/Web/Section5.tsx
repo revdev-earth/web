@@ -19,7 +19,6 @@ const ClientsSection = () => (
             className="w-full h-full object-center object-cover rounded-lg md:rounded-xl lg:rounded-2xl"
             decoding="async"
             data-nimg="fill"
-            fill
           />
         </div>
       ))}

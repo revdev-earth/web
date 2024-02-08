@@ -24,18 +24,14 @@ const FadeInOut = ({
 
     const top = current.getBoundingClientRect().top;
     const height = window.innerHeight;
-
-    // Ajusta el umbral según tus necesidades
-    const threshold = 0.8;
+    const threshold = 0.7;
 
     if (
       top < height * threshold ||
       window.innerHeight + window.scrollY >= document.body.offsetHeight
     ) {
-      // Sección visible o hemos llegado al final de la página
       controls.start({ opacity: 1 });
     } else {
-      // Sección oculta
       controls.start({ opacity: 0 });
     }
   };
@@ -45,12 +41,12 @@ const FadeInOut = ({
   };
 
   useEffect(() => {
+    checkVisibility();
     window.addEventListener("scroll", handleScroll);
-    // Limpia el listener cuando el componente se desmonta
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []); // Se ejecuta solo en el montaje
+  }, []);
 
   return (
     <motion.div

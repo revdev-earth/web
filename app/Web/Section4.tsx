@@ -21,7 +21,6 @@ const Project = ({ image, alt, title, description }: ProjectProps) => (
       className="w-full h-[400px] lg:h-full object-center object-cover rounded-lg md:rounded-xl lg:rounded-2xl"
       data-nimg="fill"
       decoding="async"
-      fill
     />
     <div className="absolute w-full bottom-0 left-0 flex flex-col text-white min-h-[256px] bg-black bg-opacity-80">
       <div className="flex flex-col text-center items-center p-6 justify-end">

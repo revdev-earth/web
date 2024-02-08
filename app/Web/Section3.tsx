@@ -18,7 +18,6 @@ const Solution = ({ image, alt, title, description }: SolutionProps) => (
         decoding="async"
         data-nimg="fill"
         className="rounded-lg md:rounded-xl lg:rounded-2xl"
-        fill
         priority
       />
     </div>

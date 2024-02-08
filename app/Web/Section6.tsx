@@ -38,14 +38,11 @@ const UsSection = () => (
           <Image
             src={RobotHandImage}
             alt="Robot Hand"
-            className="rounded-lg md:rounded-xl lg:rounded-2xl"
+            className="w-full rounded-lg md:rounded-xl lg:rounded-2xl"
             width={400}
             height={400}
             decoding="async"
             data-nimg="fill"
-            fill
-            objectFit="cover"
-            objectPosition="center center"
           />
         </div>
       </div>

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import MerkabaIcon from "./Merkaba.svg";
+import MerkabaIcon from "./images/Merkaba.svg";
 
 const Footer = () => (
   <footer className="container mx-auto px-5 md:px-6 pt-16 lg:pt-14 xl:pt-20 pb-12 lg:pb-14 xl:pb-20">

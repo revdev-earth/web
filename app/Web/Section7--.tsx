@@ -1,7 +1,8 @@
 "use client";
 
-import { FormEvent, useState } from "react";
-import LoadingIcon from "./LoadingIcon";
+import { useFormState } from "react-dom";
+import { processForm } from "../actions/email";
+import { useEffect, useState } from "react";
 
 const ContactSection = () => (
   <section className="container mx-auto px-5 md:px-6 pt-16 md:pt-20 lg:pt-32 pb-8">
@@ -29,51 +30,47 @@ const initialState = {
 };
 
 const Contact = () => {
+  const [state, formAction] = useFormState(processForm, initialState);
   const [sending, setSending] = useState(false);
-  const [status, setStatus] = useState<"success" | "error" | null>(null);
-  const [message, setMessage] = useState<string | null>(null);
+  const [showMessage, setShowMessage] = useState(false);
 
-  async function onSubmit(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
+  const manageAction = (data: FormData) => {
     setSending(true);
+    formAction(data);
+  };
 
-    const formData = new FormData(event.currentTarget);
-    const response = await fetch("/api/email", {
-      method: "POST",
-      body: formData,
-    });
+  useEffect(() => {
+    if (state.status) {
+      setSending(false);
+      setShowMessage(true);
+      setTimeout(() => {
+        setShowMessage(false);
+      }, 4000);
+    }
+  }, [state]);
 
-    const data: {
-      status: "error" | "success";
-      message: "string";
-      error?: string;
-    } = await response.json();
+  console.log({ state });
 
-    setStatus(data.status);
-    setMessage(data.message);
-    setSending(false);
-  }
+  if (!state) return null;
 
   return (
-    <form onSubmit={onSubmit}>
+    <form action={manageAction}>
       <p
         aria-live="polite"
         className={`sr-only ${
-          status === "error" ? "text-red-600" : "text-green-600"
+          state.status === "error" ? "text-red-600" : "text-green-600"
         }`}
         role="status"
       >
-        {message}
+        {state.message}
       </p>
 
-      {status === "success" && (
+      {state.status === "success" && showMessage && (
         <p className="text-green-600 mb-4">¡Formulario enviado con éxito!</p>
       )}
 
-      {status === "error" && (
-        <p className="text-red-600 mb-4">
-          Error al enviar el formulario intentalo de nuevo.
-        </p>
+      {state.status === "error" && showMessage && (
+        <p className="text-red-600 mb-4">Error al enviar el formulario.</p>
       )}
 
       <div className="flex flex-col lg:flex-row lg:space-x-4">
@@ -118,7 +115,7 @@ const Contact = () => {
           } bg-blue-900 text-white border border-blue-900 rounded px-4 py-2 transition-all hover:bg-blue-950 active:bg-blue-950 focus:outline-none focus:ring focus:border-blue-300`}
           disabled={sending}
         >
-          {sending ? <LoadingIcon /> : "Enviar"}
+          Enviar
         </button>
       </div>
     </form>

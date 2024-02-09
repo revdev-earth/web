@@ -21,14 +21,6 @@ const La = () => (
     <FadeInOut component={<Section6 />} />
     <FadeInOut component={<Section7 />} />
     <FadeInOut component={<Footer />} />
-    {/* <Section1 />
-    <Section2 />
-    <Section3 />
-    <Section4 />
-    <Section5 />
-    <Section6 />
-    <Section7 />
-    <Footer /> */}
   </>
 );
 

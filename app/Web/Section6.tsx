@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import RobotHandImage from "./robot-hand.jpeg";
+import RobotHandImage from "./images/robot-hand.jpeg";
 
 const UsSection = () => (
   <section className="container mx-auto px-5 md:px-6 pt-16 md:pt-20 lg:pt-32 pb-8">

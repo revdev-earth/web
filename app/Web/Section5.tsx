@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import Client1 from "./client-1.jpeg";
-import Client2 from "./client-2.jpeg";
-import Client3 from "./client-3.jpeg";
+import Client1 from "./images/client-1.jpeg";
+import Client2 from "./images/client-2.jpeg";
+import Client3 from "./images/client-3.jpeg";
 
 const ClientsSection = () => (
   <section className="container mx-auto px-5 md:px-6 pt-16 md:pt-20 lg:pt-32 pb-8 transition-all duration-300">

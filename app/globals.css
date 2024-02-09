@@ -50,3 +50,13 @@ textarea {
     opacity: 1;
   }
 } */
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spin {
+  animation: spin 1.27s infinite linear;
+}

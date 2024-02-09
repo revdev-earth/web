@@ -1,10 +1,10 @@
 import Image, { StaticImageData } from "next/image";
-import Project1 from "./project-1.jpeg";
-import Project2 from "./project-2.jpeg";
-import Project3 from "./project-3.jpeg";
-import Project4 from "./project-4.jpeg";
-import Project5 from "./project-5.jpeg";
-import Project6 from "./project-6.jpeg";
+import Project1 from "./images/project-1.jpeg";
+import Project2 from "./images/project-2.jpeg";
+import Project3 from "./images/project-3.jpeg";
+import Project4 from "./images/project-4.jpeg";
+import Project5 from "./images/project-5.jpeg";
+import Project6 from "./images/project-6.jpeg";
 
 interface ProjectProps {
   image: StaticImageData;

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import MerkabaIcon from "./Merkaba.svg";
+import MerkabaIcon from "./images/Merkaba.svg";
 
 const Header = () => (
   <header className="grid items-center lg:gap-6 xl:gap-10 mx-auto px-5 md:px-6 pt-6 pb-6 lg:px-12">

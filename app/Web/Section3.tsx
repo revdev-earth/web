@@ -1,6 +1,6 @@
 import Image, { StaticImageData } from "next/image";
-import Solution1 from "./solution-1.jpeg";
-import Solution2 from "./solution-2.jpeg";
+import Solution1 from "./images/solution-1.jpeg";
+import Solution2 from "./images/solution-2.jpeg";
 
 interface SolutionProps {
   image: StaticImageData;

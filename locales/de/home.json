@@ -1,0 +1,82 @@
+{
+  "section1": {
+    "title": "Entdecken Sie noch heute technologische Innovationen",
+    "text1": "Werden Sie Teil der digitalen Avantgarde mit Lösungen, die die Zukunft bestimmen.",
+    "button": "Entdecken Sie mehr"
+  },
+  "section2": {
+    "text": "Rev Dev ist ein Technologieunternehmen, das sich auf innovative Lösungen für Unternehmen im digitalen Zeitalter spezialisiert hat. Unser Expertenteam ist bestrebt, die neuesten Trends und technologischen Fortschritte zu liefern, damit unsere Kunden ihre Geschäftsziele effizient und effektiv erreichen können. Wenn Sie auf der Suche nach einem zuverlässigen und hochmodernen Unternehmen in der Welt der Technologie sind, ist Rev Dev die perfekte Wahl für Sie."
+  },
+  "section3": {
+    "title": "Lösungen",
+    "cards": [
+      {
+        "alt": "Kundenspezifische Softwarelösungen",
+        "title": "Kundenspezifische Softwarelösungen",
+        "description": "Wir erstellen maßgeschneiderte Software, um Ihr Unternehmen zu optimieren und Ihre Effizienz zu steigern."
+      },
+      {
+        "alt": "Entwicklung mobiler Anwendungen",
+        "title": "Entwicklung mobiler Anwendungen",
+        "description": "Wir entwerfen und entwickeln innovative mobile Anwendungen, um Ihr Publikum auf mobilen Geräten zu erreichen."
+      }
+    ]
+  },
+  "section4": {
+    "title": "Projekte",
+    "cards": [
+      {
+        "alt": "Entwicklung individueller Software",
+        "title": "Entwicklung individueller Software",
+        "description": "Erstellung einer individuellen Plattform zur Optimierung interner Prozesse und Verbesserung der operativen Effizienz."
+      },
+      {
+        "alt": "Systemintegration",
+        "title": "Systemintegration",
+        "description": "Implementierung einer technologischen Lösung zur Integration und Synchronisierung verschiedener Systeme innerhalb des Unternehmens."
+      },
+      {
+        "alt": "Erweiterte Cybersicherheit",
+        "title": "Erweiterte Cybersicherheit",
+        "description": "Entwicklung und Umsetzung fortschrittlicher Maßnahmen zur Cybersicherheit zum Schutz von Daten und technischer Infrastruktur."
+      },
+      {
+        "alt": "Echtzeit-Datenanalyse",
+        "title": "Echtzeit-Datenanalyse",
+        "description": "Implementierung eines Systems zur Analyse großer Datenmengen in Echtzeit und zur Entscheidungsfindung basierend auf aktuellen Informationen."
+      },
+      {
+        "alt": "Entwicklung von mobilen Anwendungen",
+        "title": "Entwicklung von mobilen Anwendungen",
+        "description": "Erstellung einer individuellen mobilen Anwendung zur Verbesserung der Benutzererfahrung und zur Erweiterung der digitalen Präsenz des Unternehmens."
+      },
+      {
+        "alt": "Automatisierung von Prozessen",
+        "title": "Automatisierung von Prozessen",
+        "description": "Automatisierung wiederholender und manueller Aufgaben zur Steigerung der Produktivität und Reduzierung menschlicher Fehler."
+      }
+    ]
+  },
+  "section5": {
+    "title": "Unsere Kunden"
+  },
+  "section6": {
+    "title": "Über uns",
+    "text1": "Herzlich willkommen bei Rev Dev, einem führenden Technologieunternehmen. Wir sind darauf spezialisiert, innovative Lösungen anzubieten, um den sich ständig ändernden Bedürfnissen unserer Kunden gerecht zu werden.",
+    "text2": "Mit einem Fokus auf modernster Technologie und einem Bekenntnis zur Exzellenz streben wir danach, Produkte und Dienstleistungen von höchster Qualität anzubieten, um Unternehmen in der digitalen Ära erfolgreich zu machen."
+  },
+  "section7": {
+    "title": "Kontaktiere uns",
+    "text": "Nehmen Sie Kontakt mit uns auf, indem Sie das unten stehende Kontaktformular verwenden. Wir freuen uns darauf, von Ihnen zu hören, und helfen Ihnen gerne bei Ihren Bauprojektanforderungen.",
+    "form": {
+      "inputs": {
+        "name": "Name",
+        "email": "E-Mail",
+        "message": "Nachricht"
+      },
+      "success": "Formular erfolgreich übermittelt!",
+      "error": "Fehler beim Senden des Formulars. Bitte versuchen Sie es erneut.",
+      "button": "Senden"
+    }
+  }
+}

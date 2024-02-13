@@ -1,0 +1,82 @@
+{
+  "section1": {
+    "title": "Discover Technology Innovation Today",
+    "text1": "Join the digital vanguard with solutions that drive the future.",
+    "button": "Explore More"
+  },
+  "section2": {
+    "text": "Rev Dev is a technology company, specialising in innovative solutions for businesses in the digital age. Our team of experts is committed to delivering the latest trends and technological advances to help our clients achieve their business goals efficiently and effectively. If you are looking for a reliable and cutting-edge company in the world of technology, Rev Dev is the perfect choice for you."
+  },
+  "section3": {
+    "title": "Solutions",
+    "cards": [
+      {
+        "alt": "Custom software solutions",
+        "title": "Custom software solutions",
+        "description": "We create customised software to optimise your business and increase your efficiency."
+      },
+      {
+        "alt": "Mobile application development",
+        "title": "Mobile application development",
+        "description": "We design and develop innovative mobile applications to reach your audience on mobile devices."
+      }
+    ]
+  },
+  "section4": {
+    "title": "Projects",
+    "cards": [
+      {
+        "alt": "Custom Software Development",
+        "title": "Custom Software Development",
+        "description": "Creation of a customized platform to optimize internal processes and enhance operational efficiency."
+      },
+      {
+        "alt": "Systems Integration",
+        "title": "Systems Integration",
+        "description": "Implementation of a technological solution to integrate and synchronize different systems within the company."
+      },
+      {
+        "alt": "Advanced Cybersecurity",
+        "title": "Advanced Cybersecurity",
+        "description": "Development and implementation of advanced cybersecurity measures to protect data and technological infrastructure."
+      },
+      {
+        "alt": "Real-time Data Analysis",
+        "title": "Real-time Data Analysis",
+        "description": "Implementation of a system to analyze large volumes of data in real-time and make decisions based on updated information."
+      },
+      {
+        "alt": "Mobile App Development",
+        "title": "Mobile App Development",
+        "description": "Creation of a custom mobile application to improve user experience and expand the digital presence of the company."
+      },
+      {
+        "alt": "Process Automation",
+        "title": "Process Automation",
+        "description": "Automation of repetitive and manual tasks to enhance productivity and reduce human errors."
+      }
+    ]
+  },
+  "section5": {
+    "title": "Our Clients"
+  },
+  "section6": {
+    "title": "About Us",
+    "text1": "Welcome to Rev Dev, a leading technology company. We are dedicated to providing innovative solutions to meet the ever-changing needs of our clients.",
+    "text2": "With a focus on cutting-edge technology and a commitment to excellence, we strive to deliver the highest quality products and services to help businesses thrive in the digital era."
+  },
+  "section7": {
+    "title": "Contact Us",
+    "text": "Get in touch with us using the contact form below. We look forward to hearing from you and assisting you with your construction needs.",
+    "form": {
+      "inputs": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message"
+      },
+      "success": "Form submitted successfully!",
+      "error": "Error sending the form. Please try again.",
+      "button": "Send"
+    }
+  }
+}

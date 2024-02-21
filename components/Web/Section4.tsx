@@ -17,7 +17,9 @@ interface ProjectProps {
 }
 
 const Project = ({ image, alt, title, description }: ProjectProps) => (
-  <div className="relative overflow-hidden rounded-lg md:rounded-xl lg:rounded-2xl flex-shrink-0 mx-auto transition-all duration-300 aspect-w-2 aspect-h-3 w-full min-w-[256px] md:w-[calc(50% - 1rem)] lg:w-[calc(33.3333% - 1rem)]">
+  <div
+    id="projects"
+    className="relative overflow-hidden rounded-lg md:rounded-xl lg:rounded-2xl flex-shrink-0 mx-auto transition-all duration-300 aspect-w-2 aspect-h-3 w-full min-w-[256px] md:w-[calc(50% - 1rem)] lg:w-[calc(33.3333% - 1rem)]">
     <Image
       alt={alt}
       src={image}

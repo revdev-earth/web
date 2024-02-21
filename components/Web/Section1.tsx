@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 
 const EnterSection = () => {
@@ -18,7 +19,9 @@ const EnterSection = () => {
             {t('section1.title')}
           </h2>
           <p className="text-2xl max-w-xl leading-10">{t('section1.text1')}</p>
-          <button className="w-fit">{t('section1.button')}</button>
+          <Link href="#projects" className="w-fit">
+            {t('section1.button')}
+          </Link>
         </div>
       </div>
     </section>
